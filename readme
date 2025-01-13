@@ -14,6 +14,22 @@ O objetivo é aplicar na prática as principais funcionalidades do Kubernetes pa
 
 
 ## Atividade 1
-Crie um pod chamado "my-pod" usando uma imagem simples como "nginx" e verifique seu estado com os comandos de monitoramento do Kubernetes.
+Ao acessar a plataforma Killercoda, vá para a aréa de kubernetes e faça as lições de cada sessão, seguindo as instruções apresentadas ao lado do terminal.
 
-- Após acessar a plataforma killercoda e fazer seu login, vá para aréa de kubernetes e selecione a seção "Pod intro". Utilize os seguintes comandos grifados na imagem e faça a checagem.
+foto dos quadradados
+
+
+- O "Playground" é um ambiente interativo que oferece um terminal de acesso livre para você praticar, experimentar e testar seus conhecimentos em Kubernetes ou outros tópicos relacionados. 
+
+ 1. Criar um Pod
+Atividade: Criamos um Pod chamado my-pod utilizando a imagem nginx:alpine.
+Finalidade: Um Pod é a menor unidade executável no Kubernetes, responsável por rodar um ou mais containers. Essa atividade demonstra como iniciar um container simples dentro de um cluster Kubernetes.
+
+2. Criar um Deployment Básico
+Atividade: Criamos um Deployment chamado my-first-deployment usando a imagem nginx:alpine.
+Finalidade: Um Deployment gerencia a criação e o estado desejado de múltiplos Pods. Ele automatiza tarefas como escalonamento, atualizações e recuperação de falhas, garantindo alta disponibilidade das aplicações.
+
+3. Configurar o Kubernetes Dashboard
+Atividade: Instalamos e configuramos o Kubernetes Dashboard para ser acessado via HTTP em todas as interfaces (0.0.0.0). Criamos um ServiceAccount com permissões administrativas e configuramos um port-forward na porta 9090.
+Finalidade: O Dashboard fornece uma interface gráfica que facilita o gerenciamento e monitoramento do cluster Kubernetes. Ele simplifica tarefas como visualização de recursos, execução de operações e análise de logs.
+
