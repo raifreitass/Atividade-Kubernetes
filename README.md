@@ -93,6 +93,6 @@ Questão: Crie um serviço do tipo NodePort para expor externamente um Deploymen
 - ### Pod chamado "restart-pod"
 Questão: Crie um pod chamado "restart-pod" com a política de reinício configurada como "OnFailure". Provoque uma falha no pod e observe seu comportamento.
 
-![image](https://github.com/user-attachments/assets/8a747c58-2da5-4193-b4cc-52af2168bcb7)
+![Captura de tela 2025-01-13 142601](https://github.com/user-attachments/assets/32e53e0e-fe1c-43a1-ab98-569997eac56e)
 
 *Resumo:* Foi criado um pod chamado restart-pod com a política de reinício configurada como OnFailure. O contêiner foi configurado para falhar após imprimir a mensagem "Pod falhou", conforme esperado, e você pode observar esse comportamento ao monitorar o número de reinicializações.
