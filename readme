@@ -22,14 +22,16 @@ foto dos quadradados
 - O "Playground" é um ambiente interativo que oferece um terminal de acesso livre para você praticar, experimentar e testar seus conhecimentos em Kubernetes ou outros tópicos relacionados. 
 
  1. Criar um Pod
-Atividade: Criamos um Pod chamado my-pod utilizando a imagem nginx:alpine.
+Criei um Pod chamado my-pod utilizando a imagem nginx:alpine.
 Finalidade: Um Pod é a menor unidade executável no Kubernetes, responsável por rodar um ou mais containers. Essa atividade demonstra como iniciar um container simples dentro de um cluster Kubernetes.
 
 2. Criar um Deployment Básico
-Atividade: Criamos um Deployment chamado my-first-deployment usando a imagem nginx:alpine.
+Criei um Deployment chamado my-first-deployment usando a imagem nginx:alpine.
 Finalidade: Um Deployment gerencia a criação e o estado desejado de múltiplos Pods. Ele automatiza tarefas como escalonamento, atualizações e recuperação de falhas, garantindo alta disponibilidade das aplicações.
 
 3. Configurar o Kubernetes Dashboard
-Atividade: Instalamos e configuramos o Kubernetes Dashboard para ser acessado via HTTP em todas as interfaces (0.0.0.0). Criamos um ServiceAccount com permissões administrativas e configuramos um port-forward na porta 9090.
+Instalei e configurei o Kubernetes Dashboard para ser acessado via HTTP em todas as interfaces (0.0.0.0). Criamos um ServiceAccount com permissões administrativas e configuramos um port-forward na porta 9090.
 Finalidade: O Dashboard fornece uma interface gráfica que facilita o gerenciamento e monitoramento do cluster Kubernetes. Ele simplifica tarefas como visualização de recursos, execução de operações e análise de logs.
+
+## Atividades práticas
 
