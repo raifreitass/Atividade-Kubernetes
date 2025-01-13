@@ -42,7 +42,7 @@ Questão: Crie um ConfigMap chamado "app-config" com uma variável de configura�
 
 ![Captura de tela 2025-01-13 013308](https://github.com/user-attachments/assets/703333d0-518b-4b34-8c9c-39638a18d171)
 
-*Resumo:* oi criado um ConfigMap chamado app-config para armazenar uma configuração personalizada. Esse ConfigMap foi aplicado no cluster e, em seguida, montado em um Pod chamado pod-with-config como uma variável de ambiente. O valor da variável foi verificado dentro do Pod utilizando o comando kubectl exec, confirmando que o ConfigMap foi aplicado corretamente.
+*Resumo:* Foi criado um ConfigMap chamado app-config para armazenar uma configuração personalizada. Esse ConfigMap foi aplicado no cluster e, em seguida, montado em um Pod chamado pod-with-config como uma variável de ambiente. O valor da variável foi verificado dentro do Pod utilizando o comando kubectl exec, confirmando que o ConfigMap foi aplicado corretamente.
 
 
 - ### Criar um Secret
@@ -68,7 +68,7 @@ Questão: Crie um serviço do tipo ClusterIP para um Deployment chamado "backend
 *Resumo:* Foi criado um serviço do tipo ClusterIP chamado "backend", que expõe um conjunto de Pods para comunicação interna dentro do cluster Kubernetes. O arquivo backend-service.yaml define o serviço com o seletor de Pods app: httpd e especifica que o serviço escuta na porta 80 (TCP). Após aplicar o arquivo com o comando kubectl apply -f backend-service.yaml, a conectividade foi testada usando kubectl get svc backend para verificar o serviço criado.
 
 - ### Criar um Job
-Questão: Implante um Job chamado "batch-job" que execute um comando simples e termine. Verifique os logs do Job para confirmar sua execução
+Questão: Implante um Job chamado "batch-job" que execute um comando simples e termine. Verifique os logs do Job para confirmar sua execução.
 
 ![image](https://github.com/user-attachments/assets/e9221795-81e2-4254-9a24-05c33f51990d)
 
