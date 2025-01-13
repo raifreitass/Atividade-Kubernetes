@@ -1,3 +1,19 @@
+
 # Descrição
 
-Este repositório contém a resolução de uma série de exercícios práticos realizados na plataforma Killercoda, abordando conceitos fundamentais do Kubernetes. As atividades incluem a criação de Pods, Deployments, ConfigMaps, Secrets, PersistentVolumes, serviços de rede, Jobs e Horizontal Pod Autoscalers. O objetivo é aplicar na prática as principais funcionalidades do Kubernetes para gerenciar e orquestrar aplicações em contêineres de forma eficiente.
+Este repositório contém a resolução de uma série de exercícios práticos realizados na plataforma Killercoda, abordando conceitos fundamentais do Kubernetes. As atividades incluem a criação de:
+- Pods
+- Deployments
+- ConfigMaps
+- Secrets
+- PersistentVolumes
+- Serviços de rede
+- Jobs e Horizontal Pod Autoscalers
+
+O objetivo é aplicar na prática as principais funcionalidades do Kubernetes para gerenciar e orquestrar aplicações em contêineres de forma eficiente.
+
+
+## Atividade 1
+Crie um pod chamado "my-pod" usando uma imagem simples como "nginx" e verifique seu estado com os comandos de monitoramento do Kubernetes.
+
+- Após acessar a plataforma killercoda e fazer seu login, vá para aréa de kubernetes e selecione a seção "Pod intro". Utilize os seguintes comandos grifados na imagem e faça a checagem.
