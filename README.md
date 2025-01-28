@@ -12,6 +12,15 @@ Este repositório contém a resolução de uma série de exercícios práticos r
 
 O objetivo é aplicar na prática as principais funcionalidades do Kubernetes para gerenciar e orquestrar aplicações em contêineres de forma eficiente.
 
+# Tecnologias Utilizadas
+- Kubernetes
+- Killercoda
+- kubectl
+- Minikube
+- NGINX
+- BusyBox
+- YAML
+- Ferramentas de monitoramento e teste
 
 ## Atividade 1
 Ao acessar a plataforma Killercoda, navegue até a área dedicada ao Kubernetes e faça as lições de cada sessão, seguindo as instruções apresentadas ao lado do terminal.
